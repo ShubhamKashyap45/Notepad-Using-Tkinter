@@ -78,6 +78,7 @@ def about():
 if __name__ == '__main__':
     root = Tk()
     root.title("New Text Document - Notepad")
+    root.wm_iconbitmap("notepad.ico")
     root.geometry("600x400")
 
     # Text Area in Notepad
